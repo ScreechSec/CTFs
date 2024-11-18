@@ -50,8 +50,16 @@ To mitigate and detect this type of persistence:
 - Configure a centralized logging system (e.g., **SIEM**) to detect log tampering or unusual user activity.
 - Track reboots and unexpected changes to user accounts.
 
-### 5. Incident Response
+### Incident Response
 If unauthorized accounts or script modifications are detected:
+
 - Remove the malicious account and script lines.
-- Investigate how the attacker gained root access to prevent recurrence.
-```
+- Investigate how the attacker gained `root` access to prevent recurrence.
+
+---
+
+### Summary
+The attacker maintained persistence by:
+
+- Adding a hidden user (`sysd`) with `/bin/bash` access.
+- Modifying the `startup.sh` script to re-add the `sysd` user on system reboots.
