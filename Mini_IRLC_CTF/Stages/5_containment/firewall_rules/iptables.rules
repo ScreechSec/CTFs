@@ -1,0 +1,1 @@
+Create iptables rule to prevent outbound traffic to the C2 IP and the port it was using.
