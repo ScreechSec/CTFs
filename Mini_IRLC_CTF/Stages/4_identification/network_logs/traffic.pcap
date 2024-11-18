@@ -1,0 +1,6 @@
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Connection established
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Command received: "whoami"
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Response: "root"
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Command received: "cat /etc/passwd"
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Response: "[contents of /etc/passwd]"
+192.168.1.100 -> 203.0.113.5:4444  [TCP] Connection closed
