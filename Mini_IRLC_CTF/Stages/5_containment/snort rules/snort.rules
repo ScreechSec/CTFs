@@ -1,0 +1,1 @@
+Create a snort rule to detect and alert on outbound connection to the attackers IP address, the use of netcat, and Access to sensitive files.
