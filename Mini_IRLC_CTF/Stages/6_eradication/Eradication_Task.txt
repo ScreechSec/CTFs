@@ -1,0 +1,2 @@
+Delete the suspicious user seen in Persistence Phase and cleanup the startup script. 
+Delete the Suspicous Files seen in file_list.txt
