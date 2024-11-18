@@ -1,0 +1,1 @@
+Create yaml rule to block the Netcat reverse shell and to alert on sensitive file access 
