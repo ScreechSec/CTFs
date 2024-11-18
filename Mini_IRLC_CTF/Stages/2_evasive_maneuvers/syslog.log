@@ -1,0 +1,10 @@
+Nov 18 10:00:01 server1 CRON[23456]: (root) CMD (/usr/local/bin/backup.sh)
+Nov 18 10:05:12 server1 sshd[12345]: Accepted password for admin from 192.168.1.3 port 22
+Nov 18 10:10:24 server1 httpd[56789]: GET /index.html 200
+Nov 18 10:10:48 server1 httpd[56789]: GET /products?id=1 OR 1=1-- 200
+Nov 18 10:11:05 server1 httpd[56789]: GET /products?id=1 UNION SELECT username,password FROM users-- 200
+Nov 18 10:15:17 server1 sshd[12346]: Accepted password for root from 192.168.1.100 port 22
+Nov 18 10:15:18 server1 su[98765]: + /dev/tty: root by admin
+Nov 18 10:20:12 server1 CRON[23457]: (root) CMD (/usr/local/bin/cleanup.sh)
+Nov 18 10:25:30 server1 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 18 10:25:30 server1 systemd[1]: Started Cleanup of Temporary Directories.
