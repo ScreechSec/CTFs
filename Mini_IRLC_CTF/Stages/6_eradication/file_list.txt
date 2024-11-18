@@ -1,0 +1,5 @@
+/tmp/legitfile.log
+/tmp/.hidden_malware
+/tmp/tempfile.tmp
+/var/tmp/system_backup.sh
+/var/tmp/.attacker_script
